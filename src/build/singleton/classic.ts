@@ -52,6 +52,11 @@ export class MyClassSingleton{
     }
 }
 
+console.log('Criação Singleton Classico')
+console.log()
+console.log()
+
+
 const example1 =  MyClassSingleton.getInstance()
 const example2 =  MyClassSingleton.getInstance()
 
@@ -60,6 +65,9 @@ console.log(example1.showsData())
 console.log(example2.showsData())
 
 console.log(example1 == example2)
+
+console.log()
+console.log()
 
 // Esta classe Singleton garante que todos os componentes do projeto usem a mesma instância da classe MyClassSingleton. 
 // Você pode exportá-la e utilizá-la em qualquer lugar do projeto de forma simples.
